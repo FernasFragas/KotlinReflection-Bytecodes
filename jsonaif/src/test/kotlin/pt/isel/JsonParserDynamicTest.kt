@@ -1,12 +1,9 @@
 package pt.isel
 
-import com.squareup.javapoet.JavaFile
-import pt.isel.JsonParserDynamic.saveSourceCode
 import pt.isel.sample.Classroom
 import pt.isel.sample.Date
 import pt.isel.sample.Person
 import pt.isel.sample.Student
-import java.io.File
 import javax.tools.ToolProvider
 import kotlin.test.Test
 import kotlin.test.assertEquals

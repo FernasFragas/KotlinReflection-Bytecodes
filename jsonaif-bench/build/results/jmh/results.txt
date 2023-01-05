@@ -1,7 +1,0 @@
-Benchmark                                          Mode  Cnt    Score    Error   Units
-JsonParserBenchmarckKotlin.parseInDynamicAge      thrpt    3  145,292 ±  8,919  ops/ms
-JsonParserBenchmarckKotlin.parseInDynamicDate     thrpt    3  317,676 ± 61,926  ops/ms
-JsonParserBenchmarckKotlin.parseInDynamicStudent  thrpt    3  593,677 ± 46,389  ops/ms
-JsonParserBenchmarckKotlin.parseInReflectAge      thrpt    3  171,297 ±  1,812  ops/ms
-JsonParserBenchmarckKotlin.parseInReflectDate     thrpt    3  340,895 ± 36,828  ops/ms
-JsonParserBenchmarckKotlin.parseInReflectStudent  thrpt    3  564,250 ± 80,388  ops/ms

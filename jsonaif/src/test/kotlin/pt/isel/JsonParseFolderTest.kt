@@ -5,10 +5,11 @@ import pt.isel.sample.Person
 import pt.isel.sample.Student
 import kotlin.test.assertEquals
 import pt.isel.*
+import kotlin.io.path.Path
 
 class JsonParseFolderTest{
 
-    val path = "C:\\lae2\\trab3lae\\testFiles"
+    val path = "${Path("testFiles").toAbsolutePath()}"
 
     @Test fun parseFolderEager() {
         val e = JsonParserReflect.parseFolderEager<Student>(path)
